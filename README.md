@@ -1,27 +1,17 @@
 # Ember-assign-polyfill
 
-This README outlines the details of collaborating on this Ember addon.
+<a href="https://shipshape.io/"><img src="http://i.imgur.com/bU4ABmk.png" width="100" height="100"/></a>
 
-## Installation
+This is a super simple polyfill for enabling support for `Ember.assign` in Ember <= 1.13. I found on several occasions I needed to shim this, so decided to just put together an addon for it.
 
-* `git clone <repository-url>` this repository
-* `cd ember-assign-polyfill`
-* `npm install`
-* `bower install`
+### Installation
 
-## Running
+```bash
+ember install ember-assign-polyfill
+```
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+### Usage
 
-## Running Tests
-
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+```js
+import assign from 'ember-assign-polyfill';
+```
