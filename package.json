@@ -1,6 +1,6 @@
 {
   "name": "ember-assign-polyfill",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A polyfill for Ember.assign in <= 1.13",
   "directories": {
     "doc": "doc",
