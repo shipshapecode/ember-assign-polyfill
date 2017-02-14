@@ -10,7 +10,12 @@
   }
 
   if (!_Ember.assign) {
-    _Ember.assign = function(...objects) {
+    _Ember.assign = function() {
+      var objects = new Array(arguments.length);
+      for (var i = 0; i < arguments.length; i++) {
+        objects[i] = arguments[i];
+      }
+
       return objects.reduce(Ember.merge);
     };
   }
