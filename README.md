@@ -2,6 +2,10 @@
 
 <a href="https://shipshape.io/"><img src="http://i.imgur.com/bU4ABmk.png" width="100" height="100"/></a>
 
+[![npm version](https://badge.fury.io/js/ember-assign-polyfill.svg)](http://badge.fury.io/js/ember-assign-polyfill)
+![Download count all time](https://img.shields.io/npm/dt/ember-assign-polyfill.svg)
+[![npm](https://img.shields.io/npm/dm/ember-assign-polyfill.svg)]()
+
 This provides a polyfill for the Ember.assign feature added in Ember 2.5.
 
 ### Installation
