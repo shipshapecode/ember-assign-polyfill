@@ -1,16 +1,16 @@
 /* eslint-env node */
 'use strict';
 
-var VersionChecker = require('ember-cli-version-checker');
-var hasBeenWarned = false;
+const VersionChecker = require('ember-cli-version-checker');
+let hasBeenWarned = false;
 
 module.exports = {
   name: 'ember-assign-polyfill',
-  included: function() {
+  included() {
     this._ensureThisImport();
 
-    var checker = new VersionChecker(this);
-    var emberVersion = checker.forEmber();
+    const checker = new VersionChecker(this);
+    const emberVersion = checker.forEmber();
 
     if (emberVersion.lt('2.5.0')) {
       this.import('vendor/ember-assign-polyfill/index.js');
@@ -20,18 +20,18 @@ module.exports = {
     }
   },
 
-  _ensureThisImport: function() {
+  _ensureThisImport() {
     if (!this.import) {
       this._findHost = function findHostShim() {
-        var current = this;
-        var app;
+        let current = this;
+        let app;
         do {
           app = current.app || app;
         } while (current.parent.parent && (current = current.parent));
         return app;
       };
       this.import = function importShim(asset, options) {
-        var app = this._findHost();
+        const app = this._findHost();
         app.import(asset, options);
       };
     }
