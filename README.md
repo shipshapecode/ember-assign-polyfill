@@ -8,6 +8,8 @@
 [![Ember Observer Score](https://emberobserver.com/badges/ember-assign-polyfill.svg)](https://emberobserver.com/addons/ember-assign-polyfill)
 [![Build Status](https://travis-ci.org/shipshapecode/ember-assign-polyfill.svg?branch=master)](https://travis-ci.org/shipshapecode/ember-assign-polyfill)
 
+<a href="https://app.codesponsor.io/link/bnfiyuC9jfaRVvE6NRbanWqE/shipshapecode/ember-assign-polyfill" rel="nofollow"><img src="https://app.codesponsor.io/embed/bnfiyuC9jfaRVvE6NRbanWqE/shipshapecode/ember-assign-polyfill.svg" style="width: 888px; height: 68px;" alt="Sponsor" /></a>
+
 This provides a polyfill for the Ember.assign feature added in Ember 2.5.
 
 ### Installation
