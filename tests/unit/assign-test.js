@@ -1,6 +1,5 @@
-import Ember from 'ember';
+import { assign } from '@ember/polyfills';
 import { module, test } from 'qunit';
-const { assign } = Ember;
 
 module('Unit | assign');
 
