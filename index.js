@@ -6,6 +6,7 @@ let hasBeenWarned = false;
 module.exports = {
   name: 'ember-assign-polyfill',
   included() {
+    this._super.included.apply(this, arguments);
     this._ensureThisImport();
 
     const checker = new VersionChecker(this);
