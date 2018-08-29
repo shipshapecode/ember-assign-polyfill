@@ -8,7 +8,7 @@
 ![Download count all time](https://img.shields.io/npm/dt/ember-assign-polyfill.svg)
 [![npm](https://img.shields.io/npm/dm/ember-assign-polyfill.svg)]()
 [![Ember Observer Score](https://emberobserver.com/badges/ember-assign-polyfill.svg)](https://emberobserver.com/addons/ember-assign-polyfill)
-[![Build Status](https://travis-ci.org/shipshapecode/ember-assign-polyfill.svg?branch=master)](https://travis-ci.org/shipshapecode/ember-assign-polyfill)
+[![Build Status](https://travis-ci.org/shipshapecode/ember-assign-polyfill.svg?branch=master)](https://travis-ci.org/shipshapecode/ember-assign-polyfill) [![Greenkeeper badge](https://badges.greenkeeper.io/shipshapecode/ember-assign-polyfill.svg)](https://greenkeeper.io/)
 
 This provides a polyfill for the Ember.assign feature added in Ember 2.5.
 
