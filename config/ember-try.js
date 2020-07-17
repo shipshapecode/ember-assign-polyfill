@@ -2,6 +2,7 @@
 
 const getChannelURL = require('ember-source-channel-url');
 
+// eslint-disable-next-line node/no-unsupported-features/es-syntax
 module.exports = async function () {
   return {
     useYarn: true,
