@@ -13,7 +13,6 @@ module.exports = {
     const emberVersion = checker.forEmber();
 
     if (emberVersion.lt('2.5.0')) {
-      console.info('Stuck on an old Ember version? Ship Shape would love to help you update! https://shipshape.io/ember-consulting/');
       this.import('vendor/ember-assign-polyfill/index.js');
     } else if (this.parent === this.project && !hasBeenWarned){
       console.warn('ember-assign-polyfill is not required for Ember 2.5.0 and later, please remove from your `package.json`.');
