@@ -1,6 +1,6 @@
 {
   "name": "ember-assign-polyfill",
-  "version": "2.7.2",
+  "version": "2.7.3",
   "description": "A polyfill for Ember.assign in <= 2.4",
   "keywords": [
     "ember-addon",

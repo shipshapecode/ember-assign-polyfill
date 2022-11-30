@@ -1,3 +1,12 @@
+
+## v2.7.3 (2022-11-30)
+
+#### :house: Internal
+* [#87](https://github.com/shipshapecode/ember-assign-polyfill/pull/87) Ember updates, use GitHub for CI ([@rwwagner90](https://github.com/rwwagner90))
+
+#### Committers: 1
+- Robert Wagner ([@rwwagner90](https://github.com/rwwagner90))
+
 ## v2.7.2 (2020-09-27)
 
 ## v2.7.1 (2020-07-18)
