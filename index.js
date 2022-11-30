@@ -14,8 +14,10 @@ module.exports = {
 
     if (emberVersion.lt('2.5.0')) {
       this.import('vendor/ember-assign-polyfill/index.js');
-    } else if (this.parent === this.project && !hasBeenWarned){
-      console.warn('ember-assign-polyfill is not required for Ember 2.5.0 and later, please remove from your `package.json`.');
+    } else if (this.parent === this.project && !hasBeenWarned) {
+      console.warn(
+        'ember-assign-polyfill is not required for Ember 2.5.0 and later, please remove from your `package.json`.'
+      );
       hasBeenWarned = true;
     }
   },
@@ -35,5 +37,5 @@ module.exports = {
         app.import(asset, options);
       };
     }
-  }
+  },
 };
